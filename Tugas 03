@@ -1,0 +1,25 @@
+tahun=int(input('Untuk mengetahui shio anda, Masukkan tahun lahir anda: '))
+if tahun%12==0:
+    print('Shio anda adalah Monkey')
+elif tahun%12==1:
+    print('Shio anda adalah Rooster')
+elif tahun%12==2:
+    print('Shio anda adalah Dog')
+elif tahun%12==3:
+    print('Shio anda adalah Pig')
+elif tahun%12==4:
+    print('Shio anda adalah Rat')
+elif tahun%12==5:
+    print('Shio anda adalah Ox')
+elif tahun%12==6:
+    print('Shio anda adalah Tiger')
+elif tahun%12==7:
+    print('Shio anda adalah Rabbit')
+elif tahun%12==8:
+    print('Shio anda adalah Dragon')
+elif tahun%12==9:
+    print('Shio anda adalah Snake')
+elif tahun%12==10:
+    print('Shio anda adalah Horse')
+elif tahun%12==11:
+    print('Shio anda adalah Sheep')
