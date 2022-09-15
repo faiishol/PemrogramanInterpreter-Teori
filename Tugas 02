@@ -1,0 +1,9 @@
+import math
+#r merupakan panjang dari titik tengah ke puncak
+r=float(input('Masukkan r pentagon: '))
+#aa merupakan kuadrat dari sisi pentagon
+aa=10*10*r*r/(50+math.sqrt(500))
+#a merupakan panjang sisi dari pentagon
+#L merupakan Luas dari pentagon
+L=(math.sqrt(25+math.sqrt(500))/4)*aa
+print('Luas Pentagon Adalah: ', L)
